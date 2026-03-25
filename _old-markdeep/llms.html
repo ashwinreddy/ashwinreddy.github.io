@@ -1,0 +1,75 @@
+**Enlarging Language Models**
+
+This is a potted history of large language models like GPT and Claude and more specifically, the Transformer architecture that powers them. 
+
+(#) $n$-grams
+
+As I've mentioned [elsewhere](llms-babel.html), Claude Shannon was an early pioneer of language modeling. His approach, published in 1948, was to tabulate the frequency of letters or words given the preceding $n$ letters or words, respectively, and then sample from this table. 
+
+(#) Recurrent Neural Networks
+
+A recurrent neural network is designed to accept a variable-length sequence $x$ as input. A hidden state $h_t$.
+
+$$
+h_t = f(x_t, h_{t-1})
+$$
+
+The network learns to store any necessary and relevant information about the past in $h_t$.
+
+But RNNs suffer from the **vanishing gradient problem**. The gradient tends toward zero, so no update is made.
+
+(#) LSTM
+
+Long short-term memory. Somewhat complicated machinery that lets the network "forget" and "overwrite" cell data.
+
+(#) seq2seq
+
+(#) Transformer
+
+The Transformer architecture was introduced in a paper titled "Attention Is All You Need" [#Vaswani17]. That paper specifically tried to do translation from English to German and French.
+
+
+
+network parallelizes and is more efficient. 
+
+
+
+
+(##) Attention
+
+
+(#) Self-supervised pre-training
+
+(#) GPT
+
+GPT-2 [#Radford]
+
+# More
+
+
+Language Models are Few-Shot Learners
+
+RLHF
+
+(#) References
+
+[#Sutskever14]: Sequence to Sequence Learning with Neural Networks, https://arxiv.org/pdf/1409.3215
+
+[#Karpathy15]: The Unreasonable Effectiveness of Recurrent Neural Networks, http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+
+[#Radford]: Language Models are Unsupervised Multitask Learners, https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+
+[#Kaplan20]: Scaling Laws for Neural Language Models, https://arxiv.org/abs/2001.08361
+
+[#Brown20]: Language Models are Few-Shot Learners, https://arxiv.org/abs/2005.14165
+
+[#Devlin]: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, https://arxiv.org/abs/1810.04805
+
+[#Vaswani17]: Attention Is All You Need, https://arxiv.org/abs/1706.03762
+
+[#Bahdanau]: Neural Machine Translation by Jointly Learning to Align and Translate, https://arxiv.org/abs/1409.0473
+
+[#Phuong]: https://arxiv.org/pdf/2207.09238
+
+<link rel="stylesheet" href="https://morgan3d.github.io/markdeep/latest/latex.css?">
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
