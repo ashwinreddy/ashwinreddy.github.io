@@ -23,6 +23,6 @@ The reader is expected to keep up in this search for truth. Arguments must be gr
 
 To aid students in picking and sticking to the right conceptual stand, Thomas and Turner suggest Aristotle's _Poetics_ and _Rhetorics_ and Longinus' _On the Sublime_. For students interested in reading off the stand from a text, they also recommend Morris Croll's _Style, Rhetoric, and Rhythm_, Claude Rawson's "The Character of Swift's Satire," and Twain's _Life on the Mississippi_.
 
-To choose classic prose is to commit to composing a perfect performance which is essentially fictional. We see through a glass darkly, and not every topic can be treated with the elegance of Euclid. The remit is to present the subject and exit, but that does not mean it can't be done in world-shattering prose. Among the names of modern classic stylists numbered by Thomas and Turner, many of whom wrote for _The New Yorker_, is Jorge Luis Borges.
+To choose classic prose is to commit to composing a perfect performance which is essentially fictional. We see through a glass darkly, and not every topic can be treated with the elegance of Euclid. The remit is to present the subject and exit, but that does not mean it can't be done in world-shattering prose. Among the names of modern classic stylists numbered by Thomas and Turner, many of whom wrote for _The New Yorker_, is [[Jorge Luis Borges]].
 
 

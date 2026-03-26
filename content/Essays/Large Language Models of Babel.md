@@ -3,7 +3,7 @@ title: "Large Language Models of Babel"
 date: 6 April 2023
 ---
 
-GPT-4 and Bard have caught the public's attention by storm, but my own feeling is one of déjà vu. Large language models (LLMs) like these are a recent development, but the 1940s marked the first forays into the technology, when writer Jorge Luis Borges interrogated the nature of generated text and mathematician-engineer Claude Shannon experimented with the simplest language models. Seeing LLMs in light of their work clarifies some of the fundamental questions now before us.
+GPT-4 and Bard have caught the public's attention by storm, but my own feeling is one of déjà vu. Large language models (LLMs) like these are a recent development, but the 1940s marked the first forays into the technology, when writer [[Jorge Luis Borges]] interrogated the nature of generated text and mathematician-engineer Claude Shannon experimented with the simplest language models. Seeing LLMs in light of their work clarifies some of the fundamental questions now before us.
 
 In "The Library of Babel" (1941), Borges plays out a thought experiment. Imagine a vast library whose books are of fixed length, say, 410 pages of 40 lines of 80 characters each. The librarians discover the following mysterious property about their universe: name any string of that fixed length you like, and there is exactly one book in the library that holds it.
 
